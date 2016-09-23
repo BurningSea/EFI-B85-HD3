@@ -1,0 +1,102 @@
+17:338  4:999  Found BIOS RSDP at F0000
+17:338  0:000  Printing ACPI tables from RSDP F0000 ...
+17:338  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:338  0:000    (Xsdt: CBD03078, Rsdt: CBD03028)
+17:338  0:000    CBD03078: 'XSDT', 'A M I', Rev: 1, Len: 116
+17:338  0:000    CBD03028: 'RSDT', 'A M I', Rev: 1, Len: 76
+17:338  0:000    Tables in Xsdt: 10
+17:338  0:000    0. CBD0EAE8: 'FACP', 'A M I', Rev: 5, Len: 268
+17:338  0:000        (Dsdt: CBD03188, Facs: CBD27080, XDsdt: CBD03188, XFacs: 0)
+17:338  0:000        CBD03188: 'DSDT', 'A M I', Rev: 2, Len: 47450
+17:339  0:000        CBD27080: 'FACS', Ver: 2, Len: 64
+17:339  0:000    1. CBD0EBF8: 'APIC', 'A M I', Rev: 3, Len: 114
+17:339  0:000    2. CBD0EC70: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:339  0:000    3. CBD0ECB8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+17:339  0:000    4. CBD0F1F8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+17:339  0:000    5. CBD0FCD0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:339  0:000    6. CBD0FD10: 'HPET', 'A M I', Rev: 1, Len: 56
+17:339  0:000    7. CBD0FD48: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+17:339  0:000    8. CBD100B8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12953
+17:339  0:000    9. CBD13358: 'DMAR', 'HSW ', Rev: 1, Len: 168
+17:339  0:000    Tables in Rsdt: 10
+17:339  0:000    0. CBD03100: 'FACP', 'A M I', Rev: 2, Len: 132
+17:339  0:000        (Dsdt: CBD03188, Facs: CBD27040)
+17:339  0:000        CBD03188: 'DSDT', 'A M I', Rev: 2, Len: 47450
+17:340  0:000        CBD27040: 'FACS', Ver: 0, Len: 64
+17:340  0:000    1. CBD0EBF8: 'APIC', 'A M I', Rev: 3, Len: 114
+17:340  0:000    2. CBD0EC70: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:340  0:000    3. CBD0ECB8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+17:340  0:000    4. CBD0F1F8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+17:340  0:000    5. CBD0FCD0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:340  0:000    6. CBD0FD10: 'HPET', 'A M I', Rev: 1, Len: 56
+17:340  0:000    7. CBD0FD48: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+17:340  0:000    8. CBD100B8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12953
+17:340  0:000    9. CBD13358: 'DMAR', 'HSW ', Rev: 1, Len: 168
+17:340  0:000  Found UEFI Acpi 2.0 RSDP at CBD03000
+17:340  0:000  Saving ACPI tables from RSDP CBD03000 to EFI\CLOVER\ACPI\origin ...
+17:340  0:000   CBD03000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:340  0:000    (Xsdt: CBD03078, Rsdt: CBD03028)
+17:340  0:000    CBD03078: 'XSDT', 'A M I', Rev: 1, Len: 116
+17:340  0:000    CBD03028: 'RSDT', 'A M I', Rev: 1, Len: 76
+17:340  0:000    Tables in Xsdt: 10
+17:340  0:000    0. CBD0EAE8: 'FACP', 'A M I', Rev: 5, Len: 268
+17:340  0:000        (Dsdt: CBD03188, Facs: CBD27080, XDsdt: CBD03188, XFacs: 0)
+17:340  0:000        CBD03188: 'DSDT', 'A M I', Rev: 2, Len: 47450
+17:341  0:000        CBD27080: 'FACS', Ver: 2, Len: 64
+17:341  0:000    1. CBD0EBF8: 'APIC', 'A M I', Rev: 3, Len: 114
+17:341  0:000    2. CBD0EC70: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:341  0:000    3. CBD0ECB8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+17:341  0:000    4. CBD0F1F8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+17:341  0:000    5. CBD0FCD0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:341  0:000    6. CBD0FD10: 'HPET', 'A M I', Rev: 1, Len: 56
+17:341  0:000    7. CBD0FD48: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+17:341  0:000    8. CBD100B8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12953
+17:341  0:000    9. CBD13358: 'DMAR', 'HSW ', Rev: 1, Len: 168
+17:341  0:000    Tables in Rsdt: 10
+17:341  0:000    0. CBD03100: 'FACP', 'A M I', Rev: 2, Len: 132
+17:341  0:000        (Dsdt: CBD03188, Facs: CBD27040)
+17:341  0:000        CBD03188: 'DSDT', 'A M I', Rev: 2, Len: 47450
+17:342  0:000        CBD27040: 'FACS', Ver: 0, Len: 64
+17:342  0:000    1. CBD0EBF8: 'APIC', 'A M I', Rev: 3, Len: 114
+17:342  0:000    2. CBD0EC70: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:342  0:000    3. CBD0ECB8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+17:342  0:000    4. CBD0F1F8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+17:342  0:000    5. CBD0FCD0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:342  0:000    6. CBD0FD10: 'HPET', 'A M I', Rev: 1, Len: 56
+17:342  0:000    7. CBD0FD48: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+17:342  0:000    8. CBD100B8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12953
+17:342  0:000    9. CBD13358: 'DMAR', 'HSW ', Rev: 1, Len: 168
+17:342  0:000  Found UEFI Acpi 1.0 RSDP at CBD03000
+17:342  0:000  Printing ACPI tables from RSDP CBD03000 ...
+17:342  0:000   CBD03000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:342  0:000    (Xsdt: CBD03078, Rsdt: CBD03028)
+17:342  0:000    CBD03078: 'XSDT', 'A M I', Rev: 1, Len: 116
+17:342  0:000    CBD03028: 'RSDT', 'A M I', Rev: 1, Len: 76
+17:342  0:000    Tables in Xsdt: 10
+17:342  0:000    0. CBD0EAE8: 'FACP', 'A M I', Rev: 5, Len: 268
+17:342  0:000        (Dsdt: CBD03188, Facs: CBD27080, XDsdt: CBD03188, XFacs: 0)
+17:342  0:000        CBD03188: 'DSDT', 'A M I', Rev: 2, Len: 47450
+17:343  0:000        CBD27080: 'FACS', Ver: 2, Len: 64
+17:343  0:000    1. CBD0EBF8: 'APIC', 'A M I', Rev: 3, Len: 114
+17:343  0:000    2. CBD0EC70: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:343  0:000    3. CBD0ECB8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+17:343  0:000    4. CBD0F1F8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+17:343  0:000    5. CBD0FCD0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:343  0:000    6. CBD0FD10: 'HPET', 'A M I', Rev: 1, Len: 56
+17:343  0:000    7. CBD0FD48: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+17:343  0:000    8. CBD100B8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12953
+17:343  0:000    9. CBD13358: 'DMAR', 'HSW ', Rev: 1, Len: 168
+17:343  0:000    Tables in Rsdt: 10
+17:343  0:000    0. CBD03100: 'FACP', 'A M I', Rev: 2, Len: 132
+17:343  0:000        (Dsdt: CBD03188, Facs: CBD27040)
+17:343  0:000        CBD03188: 'DSDT', 'A M I', Rev: 2, Len: 47450
+17:344  0:000        CBD27040: 'FACS', Ver: 0, Len: 64
+17:344  0:000    1. CBD0EBF8: 'APIC', 'A M I', Rev: 3, Len: 114
+17:344  0:000    2. CBD0EC70: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:344  0:000    3. CBD0ECB8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+17:344  0:000    4. CBD0F1F8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+17:344  0:000    5. CBD0FCD0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:344  0:000    6. CBD0FD10: 'HPET', 'A M I', Rev: 1, Len: 56
+17:344  0:000    7. CBD0FD48: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+17:344  0:000    8. CBD100B8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12953
+17:344  0:000    9. CBD13358: 'DMAR', 'HSW ', Rev: 1, Len: 168

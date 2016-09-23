@@ -1,0 +1,51 @@
+
+Clover EFI installer log - Fri Sep 23 21:15:22 CST 2016
+Installer version: v2.3k r3763 EFI bootloader
+======================================================
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *240.1 GB   disk0
+   1:                        EFI                         208.7 MB   disk0s1
+   2:                  Apple_HFS Mac SSD                 239.2 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1:                        EFI                         262.1 MB   disk1s1
+   2:                  Apple_HFS Sierra                  84.5 GB    disk1s2
+   3:                        EFI NO NAME                 104.9 MB   disk1s3
+   4:       Microsoft Basic Data Swap                    305.0 GB   disk1s4
+   5:       Microsoft Basic Data Games                   283.5 GB   disk1s5
+   6:       Microsoft Basic Data                         21.5 GB    disk1s6
+   7:                  Apple_HFS Steam                   304.1 GB   disk1s7
+/dev/disk2
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk2
+   1: DE94BBA4-06D1-4D40-A16A-BFD50179D6AC               471.9 MB   disk2s1
+   2:                        EFI NO NAME                 104.9 MB   disk2s2
+   3:         Microsoft Reserved                         16.8 MB    disk2s3
+   4:       Microsoft Basic Data                         107.0 GB   disk2s4
+   5:       Microsoft Basic Data Docs                    107.4 GB   disk2s5
+   6:       Microsoft Basic Data Medias                  107.4 GB   disk2s6
+   7:       Microsoft Basic Data ExFAT                   177.8 GB   disk2s7
+/dev/disk3
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *32.0 GB    disk3
+   1:             Windows_FAT_32 CCSA_X64FRE             32.0 GB    disk3s4
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Mac SSD/EFIROOTDIR/EFI folder to /Volumes/Mac SSD/EFI-Backups/r3561/2016-09-23-21h15/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Removing drivers32UEFI/VBoxHfs-32.efi driver because HFSPlus driver present
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
